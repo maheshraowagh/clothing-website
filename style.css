@@ -1,0 +1,387 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat'
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    height:100px;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 45px;
+    cursor: pointer;
+}
+.nav h1{
+padding:0 90px 0 27px;
+font-weight: 500;
+}
+.nav .nav2{
+    display: flex;
+    align-items: center;
+    gap:15px;
+  
+    
+}
+.nav .nav2 h4{
+    font-weight: 500;
+}
+.nav .nav3 {
+padding-right: 20px;
+display: flex;
+gap:20px;
+}
+.nav .nav3 i{
+    background-color: #000;
+    color:#fff;
+    padding:10px 12px;
+    border-radius: 47%;
+}
+.nav .nav3 button{
+    padding:10px 12px;
+    border-radius: 50px;
+    border:none;
+    
+}
+.heading{
+    width: 100%;
+    height:100px;
+    /* background-color: yellowgreen; */
+    display:flex;
+    align-items: end;
+    justify-content: space-between;
+    padding:0 20px;
+}
+.heading .head{
+    display:flex;
+    align-items: end;
+    gap:60px;
+}
+.heading h1{
+    font-size: 65px;
+    font-weight: 600;
+    padding-left: 49px;
+}
+.heading .head a{
+  text-decoration: none;
+  font-size: 18px;
+}
+.heading .view {
+    padding-right: 23px;
+    font-size: 18px;
+}
+.page1{
+    /* width:100%; */
+    /* height:80%; */
+    padding:60px 0 0 70px;
+    /* margin-bottom: 6%; */
+    display: flex;
+    /* background-color: green; */
+    gap:35px;
+    overflow-x: auto;
+}
+.page1::-webkit-scrollbar{
+    display: none;
+}
+
+.page1 .bigbox{
+ flex-shrink: 0;
+ /* background-color: crimson;   */
+height: fit-content; 
+ display: flex; 
+ flex-direction: column; 
+
+}
+.page1 .big-parent{
+ width:40vw; 
+}
+.page1 .small-parent{
+    width:25vw;
+  
+
+}
+.page1 .big-parent .box1{
+    width:40vw; 
+     height:60vh;
+    background-color: royalblue;
+    border-radius: 40px;
+    position:relative;
+    overflow: hidden; 
+    
+}
+.page1 .small-parent .box1{
+    /* width:25vw;  */
+     height:60vh;
+    background-color: royalblue;
+    border-radius: 40px;
+    position:relative;
+    overflow: hidden; 
+    
+}
+.page1 .box1 img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;   
+}
+
+.box1 .icon {
+    position: absolute;
+    background-color: #fff;
+    padding:10px 12px; 
+    border-radius: 50%;
+    right:3%;
+    top: 3%;
+    font-size: 30px;
+}
+
+.box1 .content{
+    position: absolute;
+    left:4%;
+    bottom:8%;
+    height: 60px;
+    width: 80%;
+
+}
+
+.box1 .content h6{
+    font-size: 20px;
+}
+.content button{
+    padding:4px 10px;
+    border-radius: 50px;
+    border:none;   
+}
+.content .btn1{
+    margin-bottom: 10px;
+}
+
+.bigbox .content2{
+    padding:15px ;
+    
+}
+.bigbox .content2 span{
+    font-size: 20px;
+
+}
+.bigbox .content2 p{
+font-size: 17px;
+font-family:  Helvetica, sans-serif;
+font-weight: 600;
+}
+.bigbox .content2 h1{
+    font-size: 30px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+
+
+.page2{
+    height:100%;
+    width:100%;
+    padding:70px 0 0 25px;
+   
+}
+.page2 .heading{
+  margin-bottom: 5%;
+
+}
+.page2 .heading h1{
+    font-size: 35px;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 700;
+    
+}
+.page2 .brandname {
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+  
+   
+}
+.page2 .brandname h5:hover{
+    background-color: rgba(128, 128, 128, 0.273);
+    color:#000
+}
+.page2 .brandname h5{
+padding:30px 25px;
+font-size: 28px;
+background-color: #fff;
+border-radius: 15px 0 15px 0;
+border:1px solid grey;
+color:gray;
+}
+.page2 .heading2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.page2 .shirts{
+    /* width:100%; */
+    /* height:100%; */
+     /* background-color: red; */
+    padding:80px ;
+    /* background-color: greenyellow; */
+  
+    
+}
+.page2 .shirts .card{
+    width:370px;
+    height:450px;
+    position: relative;
+    display: inline-block;
+    margin:0 20px;
+    padding:0 25px
+    /* background-color: red; */
+}
+.page2 .shirts .pic1{
+    width:370px;
+    height:380px;
+    background-color: rgba(128, 128, 128, 0.821);
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+     
+}
+.page2 .shirts .pic1 img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+   
+
+}
+.card .pic1 i{
+   position: absolute;
+   top:3%;
+   right:2%;
+   font-size: 25px;
+}
+.card  span i{
+    position: absolute;
+       bottom:5%;
+    right:30%;
+    font-size: 20px;
+}
+.card .pic1 .info{
+  font-size: 18px;
+  padding:5px;
+  text-align: center;
+}
+.page3{
+    height:80%;
+    width:100%;
+    /* background-color: chocolate;  */
+   
+}
+.page3 h2{
+    text-align: center;
+    font-size: 45px;
+    word-spacing: 8px;
+}
+.scrollbar{
+    margin-top: 5%;
+    width: 100%;
+    height:50%;
+    /* background-color:crimson; */
+    display: flex;
+    gap:15px;
+    overflow-x: auto;
+    align-items: center;
+    
+}
+.scrollbar::-webkit-scrollbar{
+    display: none;
+}
+.scrollbar .cards{
+    flex-shrink: 0;
+    width:35%;
+    height:100%;
+    /* background-color: red; */
+    border-radius: 25px;
+    overflow: hidden;
+    position:relative;
+}
+.cards img{
+    height:100%;
+    width: 100%;
+    object-fit:cover;
+    object-position: top;
+    filter:brightness(50%)
+}
+.scrollbar .cards .card-text  {
+   width: 100%;
+   z-index: 1000;
+   position: absolute;
+   bottom:10%;
+   left:0;
+   display: flex;
+   flex-direction: column;
+   padding:0 0 0 35px;
+}
+.card-text span{
+    color: #ffff;
+    font-size: 45px;
+    font-family: gilroy;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.page4{
+    width: 100%;
+    height:60%;
+    /* Background-color: yellow;  */
+    display: flex;
+    gap:4%;
+    margin-bottom: 5%;
+}
+
+ .discount{
+    width:50%;
+    height: 80%;
+    border-radius: 25px;
+    padding:0 50px;
+
+}
+.discount img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 35px;
+}
+.page5{
+    width: 100%;
+    height:850px;
+    position: relative;
+    /* background-color: green; */
+}
+.page5 h1{
+    text-align: center;
+    font-size: 40px;
+}
+.page5 .store{
+    margin-top: 5%;
+   border-radius: 25px;
+    overflow: hidden;
+    background-color: crimson;
+    width:70%;
+    height:600px;
+    position: absolute;
+    left:14%; 
+}
+.page5 .store video{
+  object-fit: fill;
+  width:100%;
+  height:100%;
+    
+}
